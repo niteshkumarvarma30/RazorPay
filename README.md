@@ -15,7 +15,7 @@
 2. [The Core Problem (The "Why")](#-the-core-problem-the-why)
 3. [Glossary of Terms (Plain English)](#-glossary-of-terms-plain-english)
 4. [Comprehensive Architecture & Flow Diagram](#-comprehensive-architecture--flow-diagram)
-5. [Presentation & 5-Min Video Script](#-presentation--video-resources)
+5. [Architectural Challenges & Engineering Solutions Log](./ARCHITECTURAL_CHALLENGES_AND_SOLUTIONS.md)
 6. [Phase-by-Phase Technical Implementation](#-phase-by-phase-technical-implementation)
 7. [Evaluation Scorecard vs Ground Truth](#-evaluation-scorecard-vs-ground-truth)
 8. [Meeting "The Bar" (Hackathon Criteria)](#-meeting-the-bar-hackathon-criteria)
@@ -133,11 +133,6 @@ flowchart TD
         R2 & M3 --> P1
     end
 ```
-
----
-
-## 📹 Presentation & Video Resources
-* 📄 **[Downloadable 5-Minute Video Recording Script](./VIDEO_SCRIPT_5_MINUTES.md)**: Full word-for-word spoken transcript with screen action cues, timestamps, and the "what was broken & fixed" breakdown.
 
 ---
 
