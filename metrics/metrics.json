@@ -1,0 +1,70 @@
+{
+  "total_transactions_evaluated": 65,
+  "overall_accuracy_score": 0.9692,
+  "3_way_match_rate_pct": 81.54,
+  "total_reconciled_count": 53,
+  "total_exceptions_count": 12,
+  "total_fee_leakage_detected_inr": 28.28,
+  "fee_overcharges_flagged_count": 2,
+  "total_gst_leakage_detected_inr": 47.94,
+  "total_tds_leakage_detected_inr": 12.99,
+  "tax_exceptions_flagged_count": 3,
+  "class_level_performance": {
+    "MATCHED": {
+      "true_positives": 51,
+      "false_positives": 2,
+      "false_negatives": 0,
+      "precision": 0.9623,
+      "recall": 1.0,
+      "f1_score": 0.9808
+    },
+    "FULL_REFUND": {
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "PARTIAL_REFUND": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "CHARGEBACK_HOLD": {
+      "true_positives": 2,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "SETTLEMENT_IN_TRANSIT": {
+      "true_positives": 4,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "UNRESOLVED_REQUIRES_INVESTIGATION": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "TAX_GST_TDS_AUDIT": {
+      "true_positives": 3,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    }
+  }
+}

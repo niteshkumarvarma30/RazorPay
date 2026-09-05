@@ -1,0 +1,1267 @@
+[
+  {
+    "invoice_id": "INV-2026-1001",
+    "order_id": "ord_1001",
+    "amount": 799,
+    "date": "2026-08-16 11:00:00",
+    "customer_id": "cust_754",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Delhi",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 143.82
+      }
+    ],
+    "tds_deducted": 7.99
+  },
+  {
+    "invoice_id": "INV-2026-1002",
+    "order_id": "ord_1002",
+    "amount": 1299,
+    "date": "2026-08-17 13:00:00",
+    "customer_id": "cust_350",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 116.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 116.91
+      }
+    ],
+    "tds_deducted": 12.99
+  },
+  {
+    "invoice_id": "INV-2026-1003",
+    "order_id": "ord_1003",
+    "amount": 4999,
+    "date": "2026-08-18 12:00:00",
+    "customer_id": "cust_792",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Gujarat",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 899.82
+      }
+    ],
+    "tds_deducted": 49.99
+  },
+  {
+    "invoice_id": "INV-2026-1004",
+    "order_id": "ord_1004",
+    "amount": 499,
+    "date": "2026-08-19 12:00:00",
+    "customer_id": "cust_132",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 44.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 44.91
+      }
+    ],
+    "tds_deducted": 4.99
+  },
+  {
+    "invoice_id": "INV-2026-1005",
+    "order_id": "ord_1005",
+    "amount": 8999,
+    "date": "2026-08-20 11:00:00",
+    "customer_id": "cust_617",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Karnataka",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 1619.82
+      }
+    ],
+    "tds_deducted": 89.99
+  },
+  {
+    "invoice_id": "INV-2026-1006",
+    "order_id": "ord_1006",
+    "amount": 4999,
+    "date": "2026-08-21 17:00:00",
+    "customer_id": "cust_833",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 449.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 449.91
+      }
+    ],
+    "tds_deducted": 49.99
+  },
+  {
+    "invoice_id": "INV-2026-1007",
+    "order_id": "ord_1007",
+    "amount": 1499,
+    "date": "2026-08-22 11:00:00",
+    "customer_id": "cust_703",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Tamil Nadu",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 269.82
+      }
+    ],
+    "tds_deducted": 14.99
+  },
+  {
+    "invoice_id": "INV-2026-1008",
+    "order_id": "ord_1008",
+    "amount": 2499,
+    "date": "2026-08-23 16:00:00",
+    "customer_id": "cust_263",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 224.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 224.91
+      }
+    ],
+    "tds_deducted": 24.99
+  },
+  {
+    "invoice_id": "INV-2026-1009",
+    "order_id": "ord_1009",
+    "amount": 1999,
+    "date": "2026-08-24 12:00:00",
+    "customer_id": "cust_320",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Telangana",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 359.82
+      }
+    ],
+    "tds_deducted": 19.99
+  },
+  {
+    "invoice_id": "INV-2026-1010",
+    "order_id": "ord_1010",
+    "amount": 1999,
+    "date": "2026-08-25 16:00:00",
+    "customer_id": "cust_199",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 179.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 179.91
+      }
+    ],
+    "tds_deducted": 19.99
+  },
+  {
+    "invoice_id": "INV-2026-1011",
+    "order_id": "ord_1011",
+    "amount": 499,
+    "date": "2026-08-26 22:00:00",
+    "customer_id": "cust_926",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Delhi",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 89.82
+      }
+    ],
+    "tds_deducted": 4.99
+  },
+  {
+    "invoice_id": "INV-2026-1012",
+    "order_id": "ord_1012",
+    "amount": 2499,
+    "date": "2026-08-27 12:00:00",
+    "customer_id": "cust_227",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 224.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 224.91
+      }
+    ],
+    "tds_deducted": 24.99
+  },
+  {
+    "invoice_id": "INV-2026-1013",
+    "order_id": "ord_1013",
+    "amount": 8999,
+    "date": "2026-08-28 16:00:00",
+    "customer_id": "cust_949",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Gujarat",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 1619.82
+      }
+    ],
+    "tds_deducted": 89.99
+  },
+  {
+    "invoice_id": "INV-2026-1014",
+    "order_id": "ord_1014",
+    "amount": 799,
+    "date": "2026-08-15 11:00:00",
+    "customer_id": "cust_821",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 71.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 71.91
+      }
+    ],
+    "tds_deducted": 7.99
+  },
+  {
+    "invoice_id": "INV-2026-1015",
+    "order_id": "ord_1015",
+    "amount": 1499,
+    "date": "2026-08-16 12:00:00",
+    "customer_id": "cust_891",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Karnataka",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 269.82
+      }
+    ],
+    "tds_deducted": 14.99
+  },
+  {
+    "invoice_id": "INV-2026-1016",
+    "order_id": "ord_1016",
+    "amount": 799,
+    "date": "2026-08-17 17:00:00",
+    "customer_id": "cust_987",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 71.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 71.91
+      }
+    ],
+    "tds_deducted": 7.99
+  },
+  {
+    "invoice_id": "INV-2026-1017",
+    "order_id": "ord_1017",
+    "amount": 1999,
+    "date": "2026-08-18 13:00:00",
+    "customer_id": "cust_750",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Tamil Nadu",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 359.82
+      }
+    ],
+    "tds_deducted": 19.99
+  },
+  {
+    "invoice_id": "INV-2026-1018",
+    "order_id": "ord_1018",
+    "amount": 1499,
+    "date": "2026-08-19 22:00:00",
+    "customer_id": "cust_314",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 134.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 134.91
+      }
+    ],
+    "tds_deducted": 14.99
+  },
+  {
+    "invoice_id": "INV-2026-1019",
+    "order_id": "ord_1019",
+    "amount": 799,
+    "date": "2026-08-20 20:00:00",
+    "customer_id": "cust_763",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Telangana",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 143.82
+      }
+    ],
+    "tds_deducted": 7.99
+  },
+  {
+    "invoice_id": "INV-2026-1020",
+    "order_id": "ord_1020",
+    "amount": 1299,
+    "date": "2026-08-21 13:00:00",
+    "customer_id": "cust_646",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 116.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 116.91
+      }
+    ],
+    "tds_deducted": 12.99
+  },
+  {
+    "invoice_id": "INV-2026-1021",
+    "order_id": "ord_1021",
+    "amount": 4999,
+    "date": "2026-08-22 14:00:00",
+    "customer_id": "cust_376",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Delhi",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 899.82
+      }
+    ],
+    "tds_deducted": 49.99
+  },
+  {
+    "invoice_id": "INV-2026-1022",
+    "order_id": "ord_1022",
+    "amount": 499,
+    "date": "2026-08-23 14:00:00",
+    "customer_id": "cust_963",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 44.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 44.91
+      }
+    ],
+    "tds_deducted": 4.99
+  },
+  {
+    "invoice_id": "INV-2026-1023",
+    "order_id": "ord_1023",
+    "amount": 1999,
+    "date": "2026-08-24 17:00:00",
+    "customer_id": "cust_924",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Gujarat",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 359.82
+      }
+    ],
+    "tds_deducted": 19.99
+  },
+  {
+    "invoice_id": "INV-2026-1024",
+    "order_id": "ord_1024",
+    "amount": 8999,
+    "date": "2026-08-25 22:00:00",
+    "customer_id": "cust_316",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 809.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 809.91
+      }
+    ],
+    "tds_deducted": 89.99
+  },
+  {
+    "invoice_id": "INV-2026-1025",
+    "order_id": "ord_1025",
+    "amount": 3999,
+    "date": "2026-08-26 17:00:00",
+    "customer_id": "cust_771",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Karnataka",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 719.82
+      }
+    ],
+    "tds_deducted": 39.99
+  },
+  {
+    "invoice_id": "INV-2026-1026",
+    "order_id": "ord_1026",
+    "amount": 1499,
+    "date": "2026-08-27 13:00:00",
+    "customer_id": "cust_246",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 134.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 134.91
+      }
+    ],
+    "tds_deducted": 14.99
+  },
+  {
+    "invoice_id": "INV-2026-1027",
+    "order_id": "ord_1027",
+    "amount": 4999,
+    "date": "2026-08-28 15:00:00",
+    "customer_id": "cust_674",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Tamil Nadu",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 899.82
+      }
+    ],
+    "tds_deducted": 49.99
+  },
+  {
+    "invoice_id": "INV-2026-1028",
+    "order_id": "ord_1028",
+    "amount": 8999,
+    "date": "2026-08-15 17:00:00",
+    "customer_id": "cust_538",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 809.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 809.91
+      }
+    ],
+    "tds_deducted": 89.99
+  },
+  {
+    "invoice_id": "INV-2026-1029",
+    "order_id": "ord_1029",
+    "amount": 4999,
+    "date": "2026-08-16 18:00:00",
+    "customer_id": "cust_241",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Telangana",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 899.82
+      }
+    ],
+    "tds_deducted": 49.99
+  },
+  {
+    "invoice_id": "INV-2026-1030",
+    "order_id": "ord_1030",
+    "amount": 799,
+    "date": "2026-08-17 13:00:00",
+    "customer_id": "cust_148",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 71.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 71.91
+      }
+    ],
+    "tds_deducted": 7.99
+  },
+  {
+    "invoice_id": "INV-2026-1031",
+    "order_id": "ord_1031",
+    "amount": 2499,
+    "date": "2026-08-18 20:00:00",
+    "customer_id": "cust_911",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Delhi",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 449.82
+      }
+    ],
+    "tds_deducted": 24.99
+  },
+  {
+    "invoice_id": "INV-2026-1032",
+    "order_id": "ord_1032",
+    "amount": 8999,
+    "date": "2026-08-19 18:00:00",
+    "customer_id": "cust_490",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 809.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 809.91
+      }
+    ],
+    "tds_deducted": 89.99
+  },
+  {
+    "invoice_id": "INV-2026-1033",
+    "order_id": "ord_1033",
+    "amount": 499,
+    "date": "2026-08-20 21:00:00",
+    "customer_id": "cust_666",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Gujarat",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 89.82
+      }
+    ],
+    "tds_deducted": 4.99
+  },
+  {
+    "invoice_id": "INV-2026-1034",
+    "order_id": "ord_1034",
+    "amount": 4999,
+    "date": "2026-08-21 15:00:00",
+    "customer_id": "cust_798",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 449.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 449.91
+      }
+    ],
+    "tds_deducted": 49.99
+  },
+  {
+    "invoice_id": "INV-2026-1035",
+    "order_id": "ord_1035",
+    "amount": 799,
+    "date": "2026-08-22 15:00:00",
+    "customer_id": "cust_448",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Karnataka",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 143.82
+      }
+    ],
+    "tds_deducted": 7.99
+  },
+  {
+    "invoice_id": "INV-2026-1036",
+    "order_id": "ord_1036",
+    "amount": 499,
+    "date": "2026-08-23 22:00:00",
+    "customer_id": "cust_564",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 44.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 44.91
+      }
+    ],
+    "tds_deducted": 4.99
+  },
+  {
+    "invoice_id": "INV-2026-1037",
+    "order_id": "ord_1037",
+    "amount": 4999,
+    "date": "2026-08-24 13:00:00",
+    "customer_id": "cust_369",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Tamil Nadu",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 899.82
+      }
+    ],
+    "tds_deducted": 49.99
+  },
+  {
+    "invoice_id": "INV-2026-1038",
+    "order_id": "ord_1038",
+    "amount": 4999,
+    "date": "2026-08-25 20:00:00",
+    "customer_id": "cust_961",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 449.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 449.91
+      }
+    ],
+    "tds_deducted": 49.99
+  },
+  {
+    "invoice_id": "INV-2026-1039",
+    "order_id": "ord_1039",
+    "amount": 999,
+    "date": "2026-08-26 19:00:00",
+    "customer_id": "cust_482",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Telangana",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 179.82
+      }
+    ],
+    "tds_deducted": 9.99
+  },
+  {
+    "invoice_id": "INV-2026-1040",
+    "order_id": "ord_1040",
+    "amount": 499,
+    "date": "2026-08-27 20:00:00",
+    "customer_id": "cust_643",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Karnataka",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 44.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 44.91
+      }
+    ],
+    "tds_deducted": 4.99
+  },
+  {
+    "invoice_id": "INV-2026-1041",
+    "order_id": "ord_1041",
+    "amount": 799,
+    "date": "2026-08-28 16:00:00",
+    "customer_id": "cust_119",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Delhi",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.12,
+        "amount": 95.88
+      }
+    ],
+    "tds_deducted": 7.99
+  },
+  {
+    "invoice_id": "INV-2026-1042",
+    "order_id": "ord_1042",
+    "amount": 1299,
+    "date": "2026-08-15 11:00:00",
+    "customer_id": "cust_414",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 116.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 116.91
+      }
+    ],
+    "tds_deducted": 0.0
+  },
+  {
+    "invoice_id": "INV-2026-1043",
+    "order_id": "ord_1043",
+    "amount": 3999,
+    "date": "2026-08-16 12:00:00",
+    "customer_id": "cust_849",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Gujarat",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 719.82
+      }
+    ],
+    "tds_deducted": 39.99
+  },
+  {
+    "invoice_id": "INV-2026-1044",
+    "order_id": "ord_1044",
+    "amount": 999,
+    "date": "2026-08-17 13:00:00",
+    "customer_id": "cust_645",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 89.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 89.91
+      }
+    ],
+    "tds_deducted": 9.99
+  },
+  {
+    "invoice_id": "INV-2026-1045",
+    "order_id": "ord_1045",
+    "amount": 999,
+    "date": "2026-08-18 15:00:00",
+    "customer_id": "cust_662",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Karnataka",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 179.82
+      }
+    ],
+    "tds_deducted": 9.99
+  },
+  {
+    "invoice_id": "INV-2026-1046",
+    "order_id": "ord_1046",
+    "amount": 4999,
+    "date": "2026-08-19 22:00:00",
+    "customer_id": "cust_316",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 449.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 449.91
+      }
+    ],
+    "tds_deducted": 49.99
+  },
+  {
+    "invoice_id": "INV-2026-1047",
+    "order_id": "ord_1047",
+    "amount": 1299,
+    "date": "2026-08-20 22:00:00",
+    "customer_id": "cust_806",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Tamil Nadu",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 233.82
+      }
+    ],
+    "tds_deducted": 12.99
+  },
+  {
+    "invoice_id": "INV-2026-1048",
+    "order_id": "ord_1048",
+    "amount": 2499,
+    "date": "2026-08-21 21:00:00",
+    "customer_id": "cust_419",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 224.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 224.91
+      }
+    ],
+    "tds_deducted": 24.99
+  },
+  {
+    "invoice_id": "INV-2026-1049",
+    "order_id": "ord_1049",
+    "amount": 1999,
+    "date": "2026-08-22 18:00:00",
+    "customer_id": "cust_765",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Telangana",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 359.82
+      }
+    ],
+    "tds_deducted": 19.99
+  },
+  {
+    "invoice_id": "INV-2026-1050",
+    "order_id": "ord_1050",
+    "amount": 3999,
+    "date": "2026-08-23 12:00:00",
+    "customer_id": "cust_629",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 359.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 359.91
+      }
+    ],
+    "tds_deducted": 39.99
+  },
+  {
+    "invoice_id": "INV-2026-1051",
+    "order_id": "ord_1051",
+    "amount": 1299,
+    "date": "2026-08-24 12:00:00",
+    "customer_id": "cust_353",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Delhi",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 233.82
+      }
+    ],
+    "tds_deducted": 12.99
+  },
+  {
+    "invoice_id": "INV-2026-1052",
+    "order_id": "ord_1052",
+    "amount": 499,
+    "date": "2026-08-29 19:30:00",
+    "customer_id": "cust_446",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 44.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 44.91
+      }
+    ],
+    "tds_deducted": 4.99
+  },
+  {
+    "invoice_id": "INV-2026-1053",
+    "order_id": "ord_1053",
+    "amount": 8999,
+    "date": "2026-08-30 12:30:00",
+    "customer_id": "cust_335",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Gujarat",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 1619.82
+      }
+    ],
+    "tds_deducted": 89.99
+  },
+  {
+    "invoice_id": "INV-2026-1054",
+    "order_id": "ord_1054",
+    "amount": 499,
+    "date": "2026-08-30 10:30:00",
+    "customer_id": "cust_172",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 44.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 44.91
+      }
+    ],
+    "tds_deducted": 4.99
+  },
+  {
+    "invoice_id": "INV-2026-1055",
+    "order_id": "ord_1055",
+    "amount": 1999,
+    "date": "2026-08-29 20:30:00",
+    "customer_id": "cust_132",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Karnataka",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 359.82
+      }
+    ],
+    "tds_deducted": 19.99
+  },
+  {
+    "invoice_id": "INV-2026-1056",
+    "order_id": "ord_1056",
+    "amount": 1499,
+    "date": "2026-08-15 21:00:00",
+    "customer_id": "cust_343",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 134.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 134.91
+      }
+    ],
+    "tds_deducted": 14.99
+  },
+  {
+    "invoice_id": "INV-2026-1057",
+    "order_id": "ord_1057",
+    "amount": 999,
+    "date": "2026-08-16 22:00:00",
+    "customer_id": "cust_652",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Tamil Nadu",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 179.82
+      }
+    ],
+    "tds_deducted": 9.99
+  },
+  {
+    "invoice_id": "INV-2026-1058",
+    "order_id": "ord_1058",
+    "amount": 1299,
+    "date": "2026-08-17 18:00:00",
+    "customer_id": "cust_584",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 116.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 116.91
+      }
+    ],
+    "tds_deducted": 12.99
+  },
+  {
+    "invoice_id": "INV-2026-1059",
+    "order_id": "ord_1059",
+    "amount": 799,
+    "date": "2026-08-18 12:00:00",
+    "customer_id": "cust_294",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Telangana",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 143.82
+      }
+    ],
+    "tds_deducted": 7.99
+  },
+  {
+    "invoice_id": "INV-2026-1060",
+    "order_id": "ord_1060",
+    "amount": 2499,
+    "date": "2026-08-19 16:00:00",
+    "customer_id": "cust_774",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 224.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 224.91
+      }
+    ],
+    "tds_deducted": 24.99
+  },
+  {
+    "invoice_id": "INV-2026-1061",
+    "order_id": "ord_1061",
+    "amount": 2499,
+    "date": "2026-08-20 18:00:00",
+    "customer_id": "cust_533",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Delhi",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 449.82
+      }
+    ],
+    "tds_deducted": 24.99
+  },
+  {
+    "invoice_id": "INV-2026-1062",
+    "order_id": "ord_1062",
+    "amount": 499,
+    "date": "2026-08-21 21:00:00",
+    "customer_id": "cust_984",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 44.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 44.91
+      }
+    ],
+    "tds_deducted": 4.99
+  },
+  {
+    "invoice_id": "INV-2026-1063",
+    "order_id": "ord_1063",
+    "amount": 799,
+    "date": "2026-08-22 11:00:00",
+    "customer_id": "cust_769",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Gujarat",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 143.82
+      }
+    ],
+    "tds_deducted": 7.99
+  },
+  {
+    "invoice_id": "INV-2026-1064",
+    "order_id": "ord_1064",
+    "amount": 799,
+    "date": "2026-08-23 14:00:00",
+    "customer_id": "cust_447",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Maharashtra",
+    "tax_lines": [
+      {
+        "type": "CGST",
+        "rate": 0.09,
+        "amount": 71.91
+      },
+      {
+        "type": "SGST",
+        "rate": 0.09,
+        "amount": 71.91
+      }
+    ],
+    "tds_deducted": 7.99
+  },
+  {
+    "invoice_id": "INV-2026-1065",
+    "order_id": "ord_1065",
+    "amount": 3999,
+    "date": "2026-08-24 13:00:00",
+    "customer_id": "cust_649",
+    "merchant_state": "Maharashtra",
+    "customer_state": "Karnataka",
+    "tax_lines": [
+      {
+        "type": "IGST",
+        "rate": 0.18,
+        "amount": 719.82
+      }
+    ],
+    "tds_deducted": 39.99
+  }
+]

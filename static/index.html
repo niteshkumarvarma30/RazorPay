@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RazorpayX — AI Finance Controller & Multi-Source Reconciliation</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. LANDING & PROJECT IDEA OVERVIEW PAGE (HOME PAGE)
+       ========================================================================== -->
+  <div id="landing-page" class="landing-page">
+    <header class="landing-nav">
+      <div class="landing-brand">
+        <div class="brand-badge-blue">R</div>
+        <div>
+          <strong style="font-size: 1.15rem; color: #0c2340;">Razorpay<span style="color:var(--rzp-primary)">X</span> AI Finance Controller</strong>
+          <div style="font-size: 0.72rem; color: var(--text-muted);">Track 04 /buildathon: Run the books & cash position</div>
+        </div>
+      </div>
+      <button class="btn-launch-hero" onclick="enterDashboard()">
+        Sign In & Launch Dashboard 🚀
+      </button>
+    </header>
+
+    <main class="landing-hero">
+      <div class="track-tag">🏆 Razorpay /buildathon — Track 04 Official Solution</div>
+      <h1>Autonomous Multi-Source Reconciliation & <br><span>AI Finance Controller</span></h1>
+      <p>
+        A deterministic 3-way financial reconciliation engine (ERP ↔ Razorpay Gateway ↔ Bank UTR) combined with 
+        <strong>Groq Llama 3.3 GraphRAG</strong>, <strong>MDR Fee Leakage Auditing</strong>, <strong>Indian GST Matcher</strong>, 
+        and <strong>Autonomous Fault Attribution with Self-Healing</strong>.
+      </p>
+
+      <!-- Quick Sign-In / Access Gateway -->
+      <div class="auth-box">
+        <h3>🔐 Finance Ops Portal Login</h3>
+        <p>Enter your credentials or enter with one click as Finance Admin:</p>
+        <div>
+          <label style="font-size:0.75rem; font-weight:700; color:#334155; display:block; margin-bottom:0.25rem;">Merchant / Admin Email</label>
+          <input type="email" class="input-field" value="cfo.finance@razorpay-merchant.com" id="auth-email">
+        </div>
+        <div>
+          <label style="font-size:0.75rem; font-weight:700; color:#334155; display:block; margin-bottom:0.25rem;">Security Token / Role</label>
+          <input type="text" class="input-field" value="Role: Lead Financial Controller (Admin)" id="auth-role" readonly>
+        </div>
+        <button class="btn-launch-hero" style="width:100%; justify-content:center; margin-top:0.5rem;" onclick="enterDashboard()">
+          Access Live Reconciliation Engine ⚡
+        </button>
+      </div>
+
+      <!-- Key Capabilities Grid -->
+      <div style="text-align: left; max-width: 1200px; margin: 0 auto 1.5rem auto; padding: 0 2rem;">
+        <h2 style="font-size: 1.5rem; font-weight: 800; color: #0c2340; margin-bottom: 0.25rem;">⚡ Core Architectural Pillars</h2>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0;">How we satisfy and exceed every requirement in Razorpay's Track 04:</p>
+      </div>
+
+      <div class="landing-grid">
+        <div class="landing-card">
+          <div class="landing-card-icon">📊</div>
+          <h3>1. Multi-Source Reconciliation</h3>
+          <p>Deterministic 3-pass graph matching (Exact Join, Tolerance Windows, and Subset-Sum Solver) resolving complex Many-to-One settlements across ERP, Razorpay, and Bank UTRs.</p>
+        </div>
+
+        <div class="landing-card">
+          <div class="landing-card-icon">💬</div>
+          <h3>2. Zero-Hallucination CFO Agent</h3>
+          <p>Powered by Groq Llama 3.3 70B with GraphRAG. Strictly bounded by subgraphs to eliminate financial hallucinations and provide instant audit narrations.</p>
+        </div>
+
+        <div class="landing-card">
+          <div class="landing-card-icon">🔍</div>
+          <h3>3. MDR Fee Leakage Audit</h3>
+          <p>Catches hidden rate discrepancies (e.g. 3.5% vs contracted 2.0% MDR + 18% GST), calculating exact overcharge losses down to the paise.</p>
+        </div>
+
+        <div class="landing-card">
+          <div class="landing-card-icon">📑</div>
+          <h3>4. Tax-Line (GST & TDS) Matcher</h3>
+          <p>Audits Intra-State (CGST 9% + SGST 9%) vs Inter-State (IGST 18%) splits and validates 1% TDS deduction under Section 194-O.</p>
+        </div>
+
+        <div class="landing-card">
+          <div class="landing-card-icon">📈</div>
+          <h3>5. 7-Day Cashflow Forecaster</h3>
+          <p>Projects rolling liquidity on in-flight T+2 settlement cycles, forecasting risk-adjusted net bank payouts for liquidity planning.</p>
+        </div>
+
+        <div class="landing-card">
+          <div class="landing-card-icon">🛠️</div>
+          <h3>6. Self-Healing & Dispute Action</h3>
+          <p>1-Click Razorpay dispute claim filing for gateway overcharges, plus interactive invoice correction that instantly self-heals unresolved exceptions.</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- ==========================================================================
+       2. LIVE DASHBOARD WORKSPACE (WHITE & BLUE CORPORATE THEME)
+       ========================================================================== -->
+  <div class="app-wrapper" id="dashboard-app" style="display:none;">
+    
+    <!-- 1. Left Razorpay Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-icon">R</div>
+        <div>
+          <div class="brand-title">Razorpay<span style="color:#38bdf8">X</span> Recon</div>
+          <div class="brand-badge">Track 04 Controller</div>
+        </div>
+      </div>
+
+      <nav class="sidebar-menu">
+        <button class="nav-item" onclick="returnToHome()" style="color:#38bdf8; background:rgba(2,132,199,0.15); margin-bottom:0.5rem;">
+          <span>🏠</span> Home & Overview
+        </button>
+
+        <div class="menu-section-label">Core Workflows</div>
+        <button class="nav-item active" onclick="switchTab('reconciliation')">
+          <span>📊</span> 3-Way Reconciliation
+        </button>
+        <button class="nav-item" onclick="switchTab('exceptions')">
+          <span>⚠️</span> Exceptions & Triage
+        </button>
+        <button class="nav-item" onclick="switchTab('fee-audit')">
+          <span>🔍</span> Fee Leakage Audit
+        </button>
+        <button class="nav-item" onclick="switchTab('tax-audit')">
+          <span>📑</span> Tax-Line (GST) Matcher
+        </button>
+        <button class="nav-item" onclick="switchTab('forecast')">
+          <span>📈</span> Cashflow Forecaster
+        </button>
+
+        <div class="menu-section-label" style="margin-top: 0.75rem;">Intelligence & Trust</div>
+        <button class="nav-item" onclick="switchTab('metrics')">
+          <span>🎯</span> Ground Truth & Trust
+        </button>
+        <button class="nav-item" onclick="switchTab('investigation')">
+          <span>🤖</span> Failure Recovery Agent
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="status-indicator">
+          <div class="pulse-dot"></div>
+          <div>
+            <strong style="color:white; font-size:0.75rem;">Razorpay Gateway</strong><br>
+            <span style="font-size:0.68rem;">T+2 Settlement Cycle Active</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- 2. Main Content Workspace -->
+    <main class="main-workspace">
+      <!-- Top Navbar -->
+      <header class="top-navbar">
+        <div class="breadcrumb-area">
+          <span class="breadcrumb-path">RazorpayX</span>
+          <span class="breadcrumb-path">/</span>
+          <span class="breadcrumb-path">Finance Ops</span>
+          <span class="breadcrumb-path">/</span>
+          <span class="breadcrumb-current" id="active-tab-title">3-Way Reconciliation Ledger</span>
+        </div>
+
+        <div class="navbar-actions">
+          <!-- Razorpay Live Mode Pill -->
+          <div class="rzp-mode-pill">
+            <button id="btn-mode-synth" class="mode-toggle-btn active" onclick="setMode('synthetic')">
+              🔵 Synthetic Batch
+            </button>
+            <button id="btn-mode-live" class="mode-toggle-btn" onclick="setMode('live')">
+              🟢 Live Razorpay API
+            </button>
+          </div>
+
+          <button class="btn-sync" onclick="refreshData()" title="Re-fetch live data from Razorpay API">
+            <span>🔄</span> Sync Data
+          </button>
+
+          <div style="font-size:0.75rem; background:#f0f9ff; border:1px solid #bae6fd; padding:0.4rem 0.85rem; border-radius:8px; color:#0369a1; font-weight:700;">
+            🛡️ 2.0% MDR + 18% GST
+          </div>
+        </div>
+      </header>
+
+      <!-- View Container -->
+      <div class="view-container">
+        <!-- Freshness Notification Bar -->
+        <div class="freshness-bar" id="freshness-banner">
+          <div>
+            <span style="color:var(--text-subtle);">Data Ingestion Source:</span> 
+            <strong style="color:#0c2340; margin-left:0.35rem;" id="freshness-text">Synthetic 65-record batch with planted anomalies</strong>
+          </div>
+          <span id="freshness-badge" class="badge badge-matched">Synced 🟢</span>
+        </div>
+
+        <!-- KPI Metrics Grid -->
+        <div class="kpi-row">
+          <div class="kpi-box" style="border-left: 4px solid #059669;">
+            <div class="kpi-header">
+              <span class="kpi-tag">3-Way Match Rate</span>
+              <span class="kpi-icon">⚡</span>
+            </div>
+            <div class="kpi-number" id="kpi-match-rate">--%</div>
+            <div class="kpi-footer" id="kpi-match-sub">Reconciling records...</div>
+          </div>
+
+          <div class="kpi-box" style="border-left: 4px solid #dc2626;">
+            <div class="kpi-header">
+              <span class="kpi-tag">MDR Fee Leakage</span>
+              <span class="kpi-icon">🔍</span>
+            </div>
+            <div class="kpi-number" id="kpi-leakage">₹--</div>
+            <div class="kpi-footer" id="kpi-leakage-sub">Overcharges caught</div>
+          </div>
+
+          <div class="kpi-box" style="border-left: 4px solid #d97706;">
+            <div class="kpi-header">
+              <span class="kpi-tag">Active Exceptions</span>
+              <span class="kpi-icon">⚠️</span>
+            </div>
+            <div class="kpi-number" id="kpi-exceptions">--</div>
+            <div class="kpi-footer">Refunds, Disputes, In-Transit</div>
+          </div>
+
+          <div class="kpi-box" style="border-left: 4px solid #0284c7;">
+            <div class="kpi-header">
+              <span class="kpi-tag">7-Day Liquidity Forecast</span>
+              <span class="kpi-icon">📈</span>
+            </div>
+            <div class="kpi-number" id="kpi-forecast">₹--</div>
+            <div class="kpi-footer">T+2 projected payouts</div>
+          </div>
+        </div>
+
+        <!-- TAB 1: 3-Way Reconciliation -->
+        <div id="tab-reconciliation" class="tab-pane">
+          <div class="dashboard-card">
+            <div class="card-topbar">
+              <div class="card-heading" id="matched-heading">
+                <span>📊</span> Matched Transactions Ledger
+              </div>
+              <span id="matched-table-count" class="card-subtitle">Showing 0 records</span>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Source</th>
+                  <th>Order / Invoice</th>
+                  <th>Payment ID</th>
+                  <th>Billed (ERP)</th>
+                  <th>Fee (MDR+GST)</th>
+                  <th>Bank Credited</th>
+                  <th>Bank UTR</th>
+                  <th>Recon Status</th>
+                  <th>Audit Proof</th>
+                </tr>
+              </thead>
+              <tbody id="matched-table-body">
+                <tr><td colspan="9" style="text-align: center; color: var(--text-muted);">Loading transactions...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- TAB 2: Exceptions & Triage -->
+        <div id="tab-exceptions" class="tab-pane hidden">
+          <div class="dashboard-card">
+            <div class="card-topbar">
+              <div class="card-heading">
+                <span>⚠️</span> Exception Triage & Recovery Queue
+              </div>
+              <select id="exception-filter" class="filter-pill-select" onchange="filterExceptions()">
+                <option value="ALL">All Categories</option>
+                <option value="REFUND">Refunds (Full & Partial)</option>
+                <option value="DISPUTE">Disputes & Chargebacks</option>
+                <option value="IN_TRANSIT">Settlements In-Transit (T+2)</option>
+                <option value="UNRESOLVED">Unresolved / Needs Action</option>
+              </select>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Order / Invoice</th>
+                  <th>Category</th>
+                  <th>Confidence</th>
+                  <th>Discrepancy (₹)</th>
+                  <th>Action Required</th>
+                  <th>Action Trail</th>
+                </tr>
+              </thead>
+              <tbody id="exceptions-table-body">
+                <tr><td colspan="6" style="text-align: center; color: var(--text-muted);">Loading exceptions...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- TAB 3: Fee Leakage Audit -->
+        <div id="tab-fee-audit" class="tab-pane hidden">
+          <div class="dashboard-card">
+            <div class="card-topbar">
+              <div class="card-heading">
+                <span>🔍</span> Gateway MDR Fee Leakage (Contract: 2.0% MDR + 18% GST)
+              </div>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Order ID</th>
+                  <th>Payment ID</th>
+                  <th>Captured</th>
+                  <th>Actual Fee Deducted</th>
+                  <th>Contracted Expected Fee</th>
+                  <th>Effective Rate</th>
+                  <th>Leakage Overcharge (₹)</th>
+                </tr>
+              </thead>
+              <tbody id="fee-audit-body">
+                <tr><td colspan="7" style="text-align: center; color: var(--text-muted);">Loading fee audit...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- TAB 4: Tax & GST Matcher -->
+        <div id="tab-tax-audit" class="tab-pane hidden">
+          <div class="dashboard-card">
+            <div class="card-topbar">
+              <div class="card-heading">
+                <span>📑</span> Tax-Line (GST & Section 194-O TDS) Compliance Audit
+              </div>
+              <div id="tax-headline-summary" class="card-subtitle" style="color: var(--rzp-primary);">
+                Standard: 18% GST (Intra: 9%+9% / Inter: 18%) | 1% TDS
+              </div>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Order / Invoice</th>
+                  <th>Billed (ERP)</th>
+                  <th>State Route</th>
+                  <th>Actual GST Breakdown</th>
+                  <th>Expected GST Breakdown</th>
+                  <th>1% TDS (194-O)</th>
+                  <th>Tax Variance (₹)</th>
+                  <th>Recommended Action</th>
+                </tr>
+              </thead>
+              <tbody id="tax-audit-body">
+                <tr><td colspan="8" style="text-align: center; color: var(--text-muted);">Loading tax audit...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- TAB 5: Cashflow Forecaster -->
+        <div id="tab-forecast" class="tab-pane hidden">
+          <div class="dashboard-card">
+            <div class="card-topbar">
+              <div class="card-heading">
+                <span>📈</span> Rolling Cash Forecaster (7-Day Settlement Cycle)
+              </div>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Target Settlement Date</th>
+                  <th>In-Flight Orders</th>
+                  <th>Gross Projected Volume</th>
+                  <th>Risk-Adjusted Net Bank Payout</th>
+                  <th>Cycle Status</th>
+                </tr>
+              </thead>
+              <tbody id="forecast-body">
+                <tr><td colspan="5" style="text-align: center; color: var(--text-muted);">Loading projections...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- TAB 6: Ground Truth & Calibration -->
+        <div id="tab-metrics" class="tab-pane hidden">
+          <div class="dashboard-card">
+            <div class="card-topbar">
+              <div class="card-heading">
+                <span>🎯</span> Ground Truth Verification Scorecard (65-Record Benchmark)
+              </div>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Transaction Class</th>
+                  <th>True Positives</th>
+                  <th>False Positives</th>
+                  <th>Precision</th>
+                  <th>Recall</th>
+                  <th>F1-Score</th>
+                </tr>
+              </thead>
+              <tbody id="metrics-body">
+                <tr><td colspan="6" style="text-align: center; color: var(--text-muted);">Loading scorecard...</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Calibration Container -->
+          <div class="dashboard-card" style="padding: 1.5rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+              <h3 style="font-size: 0.95rem; font-weight: 700; color: #0c2340;">📊 Model Trust & Confidence Calibration</h3>
+              <span style="font-size: 0.75rem; color: var(--text-muted);">Stated Confidence vs Real-World Accuracy</span>
+            </div>
+            <div id="calibration-headline" style="background:#f0fdf4; border:1px solid #bbf7d0; color:#166534; padding:0.75rem 1rem; border-radius:8px; font-weight:600; font-size:0.85rem; margin-bottom:1rem;">
+              Loading confidence calibration analysis...
+            </div>
+            <div id="calibration-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:1rem;"></div>
+          </div>
+        </div>
+
+        <!-- TAB 7: Failure Recovery Agent -->
+        <div id="tab-investigation" class="tab-pane hidden">
+          <div class="dashboard-card" style="padding: 1.75rem;">
+            <h3 style="font-size: 1.05rem; font-weight: 800; color:#0c2340; margin-bottom: 0.4rem;">🤖 Autonomous Failure Recovery Agent</h3>
+            <p style="color: var(--text-muted); font-size: 0.82rem; margin-bottom: 1.25rem;">
+              Test the bounded Investigation Agent on deliberately ambiguous cases (e.g., ghost ERP invoice with missing gateway records).
+            </p>
+            <div style="display: flex; gap: 0.6rem; margin-bottom: 1.5rem;">
+              <input type="text" id="investigate-input" value="ord_1065" style="background: #f8fafc; border: 1px solid var(--border-light); color: #0f172a; padding: 0.6rem 0.9rem; border-radius: 8px; font-family: monospace; font-size: 0.85rem; width: 260px;">
+              <button onclick="runInvestigation()" style="background: linear-gradient(135deg, #0284c7, #2563eb); color: white; border: none; padding: 0.6rem 1.25rem; border-radius: 8px; font-weight: 700; font-size: 0.82rem; cursor: pointer;">
+                Run Investigation Agent ⚡
+              </button>
+            </div>
+            <div id="investigation-result" class="graph-code-box" style="display: none;"></div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- 3. Floating CFO Copilot Trigger Button -->
+    <button id="chat-floating-trigger" class="chat-floating-trigger" onclick="toggleFloatingChat()" title="Open Groq Llama 3.3 CFO Chatbot">
+      <span class="pulse-dot" style="width:7px; height:7px; background:#34d399;"></span>
+      <span>💬 CFO Copilot</span>
+    </button>
+
+    <!-- 4. Floating CFO Copilot Drawer / Popup -->
+    <aside id="chat-drawer" class="chat-drawer hidden">
+      <div class="chat-header">
+        <div class="chat-title-group">
+          <span style="font-size: 1.2rem;">💬</span>
+          <div>
+            <h3>CFO Recon Copilot</h3>
+            <div class="chat-subtitle">
+              <span class="pulse-dot" style="width:6px; height:6px;"></span> Powered by Groq Llama 3.3 70B
+            </div>
+          </div>
+        </div>
+        <button class="chat-close-btn" onclick="toggleFloatingChat()" title="Minimize / Close Chat">✕</button>
+      </div>
+
+      <div class="chip-bar">
+        <div class="query-chip" onclick="askPreset('Which payments need human review?')">⚠️ Needs Review</div>
+        <div class="query-chip" onclick="askPreset('What is our overall match rate?')">📊 Match Rate</div>
+        <div class="query-chip" onclick="askPreset('Show total fee leakage caught')">🔍 Fee Leakage</div>
+        <div class="query-chip" onclick="askPreset('Show tax and GST compliance audit')">📑 Tax & GST</div>
+        <div class="query-chip" onclick="askPreset('What is the payout forecast for next week?')">📈 Forecast</div>
+        <div class="query-chip" onclick="askPreset('Explain evidence for ord_1056')">⚠️ Explain ord_1056</div>
+        <div class="query-chip" onclick="askPreset('Show all active chargeback disputes')">🛡️ Disputes</div>
+      </div>
+
+      <div class="chat-messages" id="chat-messages">
+        <div class="message-bubble agent">
+          Hello! I am your <strong>RazorpayX AI Finance Controller</strong>. I have reconciled your ERP billing, Razorpay Gateway records, and Bank UTR statements. How can I assist your financial audit today?
+        </div>
+      </div>
+
+      <div class="chat-input-row">
+        <input type="text" id="chat-input" placeholder="Ask about any order, settlement, or fee..." onkeydown="if(event.key==='Enter') sendMessage()">
+        <button onclick="sendMessage()">Ask</button>
+      </div>
+    </aside>
+
+  </div>
+
+  <!-- 4. Modal for Subgraph Proof, Money Flow & Fault Attribution -->
+  <div id="evidence-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div class="modal-top">
+        <h3 id="modal-title" style="font-size: 1.05rem; font-weight: 800; color:#0c2340;">Evidence Audit Trail & Money Flow</h3>
+        <button class="modal-close-btn" onclick="closeModal()">✕</button>
+      </div>
+
+      <!-- Money Flow Timeline -->
+      <div style="margin-bottom: 1.25rem;">
+        <div style="font-size: 0.75rem; font-weight: 700; color: var(--text-subtle); text-transform: uppercase;">
+          💸 End-to-End Money Flow Inspector
+        </div>
+        <div id="modal-money-flow" class="money-flow-grid"></div>
+      </div>
+
+      <!-- Fault Attribution Card -->
+      <div id="modal-fault-card" class="fault-box"></div>
+
+      <!-- Self-Healing Edit Drawer -->
+      <div id="modal-self-heal-drawer" class="hidden" style="background: #f0f9ff; border: 1px solid #bae6fd; padding: 1.25rem; border-radius: 12px; margin-bottom: 1.25rem;">
+        <h4 style="font-size: 0.88rem; margin-bottom: 0.5rem; color: #0369a1; font-weight:700;">🛠️ Self-Healing: Correct Merchant ERP Invoice</h4>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin-bottom: 0.85rem;">
+          <div>
+            <label style="font-size: 0.72rem; color: var(--text-muted); font-weight:600;">Billed Amount (₹)</label>
+            <input type="number" id="heal-amount" style="width: 100%; background: white; border: 1px solid var(--border-light); color: #0f172a; padding: 0.45rem; border-radius: 6px; font-size: 0.82rem;">
+          </div>
+          <div>
+            <label style="font-size: 0.72rem; color: var(--text-muted); font-weight:600;">Customer State</label>
+            <select id="heal-state" style="width: 100%; background: white; border: 1px solid var(--border-light); color: #0f172a; padding: 0.45rem; border-radius: 6px; font-size: 0.82rem;">
+              <option value="Maharashtra">Maharashtra (Intra-State: CGST/SGST)</option>
+              <option value="Karnataka">Karnataka (Inter-State: IGST)</option>
+              <option value="Delhi">Delhi (Inter-State: IGST)</option>
+              <option value="Tamil Nadu">Tamil Nadu (Inter-State: IGST)</option>
+              <option value="Gujarat">Gujarat (Inter-State: IGST)</option>
+            </select>
+          </div>
+        </div>
+        <button id="btn-submit-heal" onclick="submitInvoiceCorrection()" style="background: var(--rzp-primary); color: white; border: none; padding: 0.55rem 1.25rem; border-radius: 6px; font-size: 0.82rem; font-weight: 700; cursor: pointer;">
+          Save & Instant Re-Reconcile ⚡
+        </button>
+      </div>
+
+      <!-- Knowledge Graph Subtree -->
+      <div style="font-size: 0.75rem; font-weight: 700; color: var(--text-subtle); text-transform: uppercase; margin-bottom: 0.4rem;">
+        🕸️ NetworkX Knowledge Graph Subtree
+      </div>
+      <div class="graph-code-box" id="modal-graph-content">Loading subgraph evidence...</div>
+
+      <!-- Groq Llama 3.3 GraphRAG Narration -->
+      <p id="modal-narration" style="font-size: 0.85rem; color: #0369a1; background: #f0f9ff; border: 1px solid #bae6fd; padding: 0.85rem; border-radius: 10px; line-height: 1.5;"></p>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "refund_id": "rfnd_24ce53d9",
+    "pay_id": "pay_295667f5",
+    "amount": 749.5,
+    "date": "2026-08-16 21:00:00"
+  },
+  {
+    "refund_id": "rfnd_ef3128fa",
+    "pay_id": "pay_35f79b55",
+    "amount": 499.5,
+    "date": "2026-08-17 22:00:00"
+  },
+  {
+    "refund_id": "rfnd_633484af",
+    "pay_id": "pay_8639bb3a",
+    "amount": 649.5,
+    "date": "2026-08-18 18:00:00"
+  },
+  {
+    "refund_id": "rfnd_5b553be5",
+    "pay_id": "pay_83cf2c89",
+    "amount": 799,
+    "date": "2026-08-19 12:00:00"
+  },
+  {
+    "refund_id": "rfnd_088a135d",
+    "pay_id": "pay_7c76c9ab",
+    "amount": 2499,
+    "date": "2026-08-20 16:00:00"
+  }
+]

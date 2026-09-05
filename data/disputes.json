@@ -1,0 +1,16 @@
+[
+  {
+    "dispute_id": "disp_48865386",
+    "pay_id": "pay_56dea3fd",
+    "status": "under_review",
+    "reason": "fraudulent_claim",
+    "date": "2026-08-21 18:00:00"
+  },
+  {
+    "dispute_id": "disp_fee2e45f",
+    "pay_id": "pay_31be523a",
+    "status": "under_review",
+    "reason": "fraudulent_claim",
+    "date": "2026-08-22 21:00:00"
+  }
+]

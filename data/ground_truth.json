@@ -1,0 +1,587 @@
+{
+  "ord_1001": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1002": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1003": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1004": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1005": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1006": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1007": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1008": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1009": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1010": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1011": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1012": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1013": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1014": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1015": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1016": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1017": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1018": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1019": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1020": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1021": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1022": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1023": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1024": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1025": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1026": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1027": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1028": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1029": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1030": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1031": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1032": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1033": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1034": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1035": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1036": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1037": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1038": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1039": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1040": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "WRONG_GST_SPLIT",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1041": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "GST_RATE_MISMATCH",
+      "tax_leakage": 47.94
+    }
+  },
+  "ord_1042": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "TDS_MISSING",
+      "tax_leakage": 12.99
+    }
+  },
+  "ord_1043": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1044": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1045": {
+    "label": "MATCHED",
+    "reason": "Clean 3-way reconciliation verified across ERP, Razorpay, and Bank UTR.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1046": {
+    "label": "MATCHED_BATCH",
+    "reason": "Many-to-one batch settlement reconciled via subset-sum matching.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1047": {
+    "label": "MATCHED_BATCH",
+    "reason": "Many-to-one batch settlement reconciled via subset-sum matching.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1048": {
+    "label": "MATCHED_BATCH",
+    "reason": "Many-to-one batch settlement reconciled via subset-sum matching.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1049": {
+    "label": "MATCHED_BATCH",
+    "reason": "Many-to-one batch settlement reconciled via subset-sum matching.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1050": {
+    "label": "MATCHED_BATCH",
+    "reason": "Many-to-one batch settlement reconciled via subset-sum matching.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1051": {
+    "label": "MATCHED_BATCH",
+    "reason": "Many-to-one batch settlement reconciled via subset-sum matching.",
+    "discrepancy_amount": 0.0,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1052": {
+    "label": "SETTLEMENT_IN_TRANSIT",
+    "reason": "Transaction captured within last 48h; settlement is in-transit per standard T+2 bank cycle.",
+    "discrepancy_amount": 487.22,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1053": {
+    "label": "SETTLEMENT_IN_TRANSIT",
+    "reason": "Transaction captured within last 48h; settlement is in-transit per standard T+2 bank cycle.",
+    "discrepancy_amount": 8786.62,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1054": {
+    "label": "SETTLEMENT_IN_TRANSIT",
+    "reason": "Transaction captured within last 48h; settlement is in-transit per standard T+2 bank cycle.",
+    "discrepancy_amount": 487.22,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1055": {
+    "label": "SETTLEMENT_IN_TRANSIT",
+    "reason": "Transaction captured within last 48h; settlement is in-transit per standard T+2 bank cycle.",
+    "discrepancy_amount": 1951.82,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1056": {
+    "label": "PARTIAL_REFUND",
+    "reason": "Partial refund of \u20b9749.5 deducted from settlement amount.",
+    "discrepancy_amount": 749.5,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1057": {
+    "label": "PARTIAL_REFUND",
+    "reason": "Partial refund of \u20b9499.5 deducted from settlement amount.",
+    "discrepancy_amount": 499.5,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1058": {
+    "label": "PARTIAL_REFUND",
+    "reason": "Partial refund of \u20b9649.5 deducted from settlement amount.",
+    "discrepancy_amount": 649.5,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1059": {
+    "label": "FULL_REFUND",
+    "reason": "Full refund of \u20b9799 processed; zero settlement deposited.",
+    "discrepancy_amount": 799,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1060": {
+    "label": "FULL_REFUND",
+    "reason": "Full refund of \u20b92499 processed; zero settlement deposited.",
+    "discrepancy_amount": 2499,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1061": {
+    "label": "CHARGEBACK_HOLD",
+    "reason": "Funds of \u20b92499 held by card network due to active chargeback dispute disp_48865386.",
+    "discrepancy_amount": 2499,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1062": {
+    "label": "CHARGEBACK_HOLD",
+    "reason": "Funds of \u20b9499 held by card network due to active chargeback dispute disp_fee2e45f.",
+    "discrepancy_amount": 499,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1063": {
+    "label": "FEE_MISCALCULATION",
+    "reason": "MDR rate charged at 3.5% instead of contracted 2.0%. Fee leakage: \u20b914.14.",
+    "discrepancy_amount": 14.14,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1064": {
+    "label": "FEE_MISCALCULATION",
+    "reason": "MDR rate charged at 3.5% instead of contracted 2.0%. Fee leakage: \u20b914.14.",
+    "discrepancy_amount": 14.14,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  },
+  "ord_1065": {
+    "label": "UNRESOLVED_REQUIRES_INVESTIGATION",
+    "reason": "Ghost transaction: Invoice logged in ERP but absent from Razorpay Gateway settlement file.",
+    "discrepancy_amount": 3999,
+    "tax_audit": {
+      "status": "CLEAN",
+      "tax_leakage": 0.0
+    }
+  }
+}

@@ -1,0 +1,578 @@
+[
+  {
+    "pay_id": "pay_3850aec7",
+    "order_id": "ord_1001",
+    "amount_captured": 799,
+    "mdr_fee": 15.98,
+    "gst_on_fee": 2.88,
+    "status": "captured",
+    "date": "2026-08-16 11:00:00"
+  },
+  {
+    "pay_id": "pay_c15fe0b7",
+    "order_id": "ord_1002",
+    "amount_captured": 1299,
+    "mdr_fee": 25.98,
+    "gst_on_fee": 4.68,
+    "status": "captured",
+    "date": "2026-08-17 13:00:00"
+  },
+  {
+    "pay_id": "pay_48c4a205",
+    "order_id": "ord_1003",
+    "amount_captured": 4999,
+    "mdr_fee": 99.98,
+    "gst_on_fee": 18.0,
+    "status": "captured",
+    "date": "2026-08-18 12:00:00"
+  },
+  {
+    "pay_id": "pay_f161a467",
+    "order_id": "ord_1004",
+    "amount_captured": 499,
+    "mdr_fee": 9.98,
+    "gst_on_fee": 1.8,
+    "status": "captured",
+    "date": "2026-08-19 12:00:00"
+  },
+  {
+    "pay_id": "pay_8ce4ec64",
+    "order_id": "ord_1005",
+    "amount_captured": 8999,
+    "mdr_fee": 179.98,
+    "gst_on_fee": 32.4,
+    "status": "captured",
+    "date": "2026-08-20 11:00:00"
+  },
+  {
+    "pay_id": "pay_550f9cee",
+    "order_id": "ord_1006",
+    "amount_captured": 4999,
+    "mdr_fee": 99.98,
+    "gst_on_fee": 18.0,
+    "status": "captured",
+    "date": "2026-08-21 17:00:00"
+  },
+  {
+    "pay_id": "pay_734a785b",
+    "order_id": "ord_1007",
+    "amount_captured": 1499,
+    "mdr_fee": 29.98,
+    "gst_on_fee": 5.4,
+    "status": "captured",
+    "date": "2026-08-22 11:00:00"
+  },
+  {
+    "pay_id": "pay_b47dc19c",
+    "order_id": "ord_1008",
+    "amount_captured": 2499,
+    "mdr_fee": 49.98,
+    "gst_on_fee": 9.0,
+    "status": "captured",
+    "date": "2026-08-23 16:00:00"
+  },
+  {
+    "pay_id": "pay_33a520f7",
+    "order_id": "ord_1009",
+    "amount_captured": 1999,
+    "mdr_fee": 39.98,
+    "gst_on_fee": 7.2,
+    "status": "captured",
+    "date": "2026-08-24 12:00:00"
+  },
+  {
+    "pay_id": "pay_ae755a0f",
+    "order_id": "ord_1010",
+    "amount_captured": 1999,
+    "mdr_fee": 39.98,
+    "gst_on_fee": 7.2,
+    "status": "captured",
+    "date": "2026-08-25 16:00:00"
+  },
+  {
+    "pay_id": "pay_1f446681",
+    "order_id": "ord_1011",
+    "amount_captured": 499,
+    "mdr_fee": 9.98,
+    "gst_on_fee": 1.8,
+    "status": "captured",
+    "date": "2026-08-26 22:00:00"
+  },
+  {
+    "pay_id": "pay_e1665886",
+    "order_id": "ord_1012",
+    "amount_captured": 2499,
+    "mdr_fee": 49.98,
+    "gst_on_fee": 9.0,
+    "status": "captured",
+    "date": "2026-08-27 12:00:00"
+  },
+  {
+    "pay_id": "pay_384f9d08",
+    "order_id": "ord_1013",
+    "amount_captured": 8999,
+    "mdr_fee": 179.98,
+    "gst_on_fee": 32.4,
+    "status": "captured",
+    "date": "2026-08-28 16:00:00"
+  },
+  {
+    "pay_id": "pay_06fcc170",
+    "order_id": "ord_1014",
+    "amount_captured": 799,
+    "mdr_fee": 15.98,
+    "gst_on_fee": 2.88,
+    "status": "captured",
+    "date": "2026-08-15 11:00:00"
+  },
+  {
+    "pay_id": "pay_028465cd",
+    "order_id": "ord_1015",
+    "amount_captured": 1499,
+    "mdr_fee": 29.98,
+    "gst_on_fee": 5.4,
+    "status": "captured",
+    "date": "2026-08-16 12:00:00"
+  },
+  {
+    "pay_id": "pay_b3d220d1",
+    "order_id": "ord_1016",
+    "amount_captured": 799,
+    "mdr_fee": 15.98,
+    "gst_on_fee": 2.88,
+    "status": "captured",
+    "date": "2026-08-17 17:00:00"
+  },
+  {
+    "pay_id": "pay_8b91d9c5",
+    "order_id": "ord_1017",
+    "amount_captured": 1999,
+    "mdr_fee": 39.98,
+    "gst_on_fee": 7.2,
+    "status": "captured",
+    "date": "2026-08-18 13:00:00"
+  },
+  {
+    "pay_id": "pay_df7f61c3",
+    "order_id": "ord_1018",
+    "amount_captured": 1499,
+    "mdr_fee": 29.98,
+    "gst_on_fee": 5.4,
+    "status": "captured",
+    "date": "2026-08-19 22:00:00"
+  },
+  {
+    "pay_id": "pay_2c81100a",
+    "order_id": "ord_1019",
+    "amount_captured": 799,
+    "mdr_fee": 15.98,
+    "gst_on_fee": 2.88,
+    "status": "captured",
+    "date": "2026-08-20 20:00:00"
+  },
+  {
+    "pay_id": "pay_0f9e1133",
+    "order_id": "ord_1020",
+    "amount_captured": 1299,
+    "mdr_fee": 25.98,
+    "gst_on_fee": 4.68,
+    "status": "captured",
+    "date": "2026-08-21 13:00:00"
+  },
+  {
+    "pay_id": "pay_3597dbf2",
+    "order_id": "ord_1021",
+    "amount_captured": 4999,
+    "mdr_fee": 99.98,
+    "gst_on_fee": 18.0,
+    "status": "captured",
+    "date": "2026-08-22 14:00:00"
+  },
+  {
+    "pay_id": "pay_5679c1e7",
+    "order_id": "ord_1022",
+    "amount_captured": 499,
+    "mdr_fee": 9.98,
+    "gst_on_fee": 1.8,
+    "status": "captured",
+    "date": "2026-08-23 14:00:00"
+  },
+  {
+    "pay_id": "pay_4db15f3a",
+    "order_id": "ord_1023",
+    "amount_captured": 1999,
+    "mdr_fee": 39.98,
+    "gst_on_fee": 7.2,
+    "status": "captured",
+    "date": "2026-08-24 17:00:00"
+  },
+  {
+    "pay_id": "pay_2a45ef83",
+    "order_id": "ord_1024",
+    "amount_captured": 8999,
+    "mdr_fee": 179.98,
+    "gst_on_fee": 32.4,
+    "status": "captured",
+    "date": "2026-08-25 22:00:00"
+  },
+  {
+    "pay_id": "pay_c2361a3f",
+    "order_id": "ord_1025",
+    "amount_captured": 3999,
+    "mdr_fee": 79.98,
+    "gst_on_fee": 14.4,
+    "status": "captured",
+    "date": "2026-08-26 17:00:00"
+  },
+  {
+    "pay_id": "pay_5277629c",
+    "order_id": "ord_1026",
+    "amount_captured": 1499,
+    "mdr_fee": 29.98,
+    "gst_on_fee": 5.4,
+    "status": "captured",
+    "date": "2026-08-27 13:00:00"
+  },
+  {
+    "pay_id": "pay_49622c28",
+    "order_id": "ord_1027",
+    "amount_captured": 4999,
+    "mdr_fee": 99.98,
+    "gst_on_fee": 18.0,
+    "status": "captured",
+    "date": "2026-08-28 15:00:00"
+  },
+  {
+    "pay_id": "pay_044cbdf0",
+    "order_id": "ord_1028",
+    "amount_captured": 8999,
+    "mdr_fee": 179.98,
+    "gst_on_fee": 32.4,
+    "status": "captured",
+    "date": "2026-08-15 17:00:00"
+  },
+  {
+    "pay_id": "pay_209188e0",
+    "order_id": "ord_1029",
+    "amount_captured": 4999,
+    "mdr_fee": 99.98,
+    "gst_on_fee": 18.0,
+    "status": "captured",
+    "date": "2026-08-16 18:00:00"
+  },
+  {
+    "pay_id": "pay_24509fb0",
+    "order_id": "ord_1030",
+    "amount_captured": 799,
+    "mdr_fee": 15.98,
+    "gst_on_fee": 2.88,
+    "status": "captured",
+    "date": "2026-08-17 13:00:00"
+  },
+  {
+    "pay_id": "pay_f9d6ae4e",
+    "order_id": "ord_1031",
+    "amount_captured": 2499,
+    "mdr_fee": 49.98,
+    "gst_on_fee": 9.0,
+    "status": "captured",
+    "date": "2026-08-18 20:00:00"
+  },
+  {
+    "pay_id": "pay_1972295e",
+    "order_id": "ord_1032",
+    "amount_captured": 8999,
+    "mdr_fee": 179.98,
+    "gst_on_fee": 32.4,
+    "status": "captured",
+    "date": "2026-08-19 18:00:00"
+  },
+  {
+    "pay_id": "pay_074fb11b",
+    "order_id": "ord_1033",
+    "amount_captured": 499,
+    "mdr_fee": 9.98,
+    "gst_on_fee": 1.8,
+    "status": "captured",
+    "date": "2026-08-20 21:00:00"
+  },
+  {
+    "pay_id": "pay_eb9390a1",
+    "order_id": "ord_1034",
+    "amount_captured": 4999,
+    "mdr_fee": 99.98,
+    "gst_on_fee": 18.0,
+    "status": "captured",
+    "date": "2026-08-21 15:00:00"
+  },
+  {
+    "pay_id": "pay_0e358ec1",
+    "order_id": "ord_1035",
+    "amount_captured": 799,
+    "mdr_fee": 15.98,
+    "gst_on_fee": 2.88,
+    "status": "captured",
+    "date": "2026-08-22 15:00:00"
+  },
+  {
+    "pay_id": "pay_17e8df15",
+    "order_id": "ord_1036",
+    "amount_captured": 499,
+    "mdr_fee": 9.98,
+    "gst_on_fee": 1.8,
+    "status": "captured",
+    "date": "2026-08-23 22:00:00"
+  },
+  {
+    "pay_id": "pay_09254a52",
+    "order_id": "ord_1037",
+    "amount_captured": 4999,
+    "mdr_fee": 99.98,
+    "gst_on_fee": 18.0,
+    "status": "captured",
+    "date": "2026-08-24 13:00:00"
+  },
+  {
+    "pay_id": "pay_ec3f5127",
+    "order_id": "ord_1038",
+    "amount_captured": 4999,
+    "mdr_fee": 99.98,
+    "gst_on_fee": 18.0,
+    "status": "captured",
+    "date": "2026-08-25 20:00:00"
+  },
+  {
+    "pay_id": "pay_fcdf6780",
+    "order_id": "ord_1039",
+    "amount_captured": 999,
+    "mdr_fee": 19.98,
+    "gst_on_fee": 3.6,
+    "status": "captured",
+    "date": "2026-08-26 19:00:00"
+  },
+  {
+    "pay_id": "pay_4249d126",
+    "order_id": "ord_1040",
+    "amount_captured": 499,
+    "mdr_fee": 9.98,
+    "gst_on_fee": 1.8,
+    "status": "captured",
+    "date": "2026-08-27 20:00:00"
+  },
+  {
+    "pay_id": "pay_760af973",
+    "order_id": "ord_1041",
+    "amount_captured": 799,
+    "mdr_fee": 15.98,
+    "gst_on_fee": 2.88,
+    "status": "captured",
+    "date": "2026-08-28 16:00:00"
+  },
+  {
+    "pay_id": "pay_ddac15d1",
+    "order_id": "ord_1042",
+    "amount_captured": 1299,
+    "mdr_fee": 25.98,
+    "gst_on_fee": 4.68,
+    "status": "captured",
+    "date": "2026-08-15 11:00:00"
+  },
+  {
+    "pay_id": "pay_6103abbb",
+    "order_id": "ord_1043",
+    "amount_captured": 3999,
+    "mdr_fee": 79.98,
+    "gst_on_fee": 14.4,
+    "status": "captured",
+    "date": "2026-08-16 12:00:00"
+  },
+  {
+    "pay_id": "pay_480f9198",
+    "order_id": "ord_1044",
+    "amount_captured": 999,
+    "mdr_fee": 19.98,
+    "gst_on_fee": 3.6,
+    "status": "captured",
+    "date": "2026-08-17 13:00:00"
+  },
+  {
+    "pay_id": "pay_a7ba8144",
+    "order_id": "ord_1045",
+    "amount_captured": 999,
+    "mdr_fee": 19.98,
+    "gst_on_fee": 3.6,
+    "status": "captured",
+    "date": "2026-08-18 15:00:00"
+  },
+  {
+    "pay_id": "pay_cf6a198b",
+    "order_id": "ord_1046",
+    "amount_captured": 4999,
+    "mdr_fee": 99.98,
+    "gst_on_fee": 18.0,
+    "status": "captured",
+    "date": "2026-08-19 22:00:00"
+  },
+  {
+    "pay_id": "pay_b47f60db",
+    "order_id": "ord_1047",
+    "amount_captured": 1299,
+    "mdr_fee": 25.98,
+    "gst_on_fee": 4.68,
+    "status": "captured",
+    "date": "2026-08-20 22:00:00"
+  },
+  {
+    "pay_id": "pay_800f990c",
+    "order_id": "ord_1048",
+    "amount_captured": 2499,
+    "mdr_fee": 49.98,
+    "gst_on_fee": 9.0,
+    "status": "captured",
+    "date": "2026-08-21 21:00:00"
+  },
+  {
+    "pay_id": "pay_62ae8e0e",
+    "order_id": "ord_1049",
+    "amount_captured": 1999,
+    "mdr_fee": 39.98,
+    "gst_on_fee": 7.2,
+    "status": "captured",
+    "date": "2026-08-22 18:00:00"
+  },
+  {
+    "pay_id": "pay_ad111cd8",
+    "order_id": "ord_1050",
+    "amount_captured": 3999,
+    "mdr_fee": 79.98,
+    "gst_on_fee": 14.4,
+    "status": "captured",
+    "date": "2026-08-23 12:00:00"
+  },
+  {
+    "pay_id": "pay_7f1ec1b6",
+    "order_id": "ord_1051",
+    "amount_captured": 1299,
+    "mdr_fee": 25.98,
+    "gst_on_fee": 4.68,
+    "status": "captured",
+    "date": "2026-08-24 12:00:00"
+  },
+  {
+    "pay_id": "pay_b3901a61",
+    "order_id": "ord_1052",
+    "amount_captured": 499,
+    "mdr_fee": 9.98,
+    "gst_on_fee": 1.8,
+    "status": "captured",
+    "date": "2026-08-29 19:30:00"
+  },
+  {
+    "pay_id": "pay_70e34861",
+    "order_id": "ord_1053",
+    "amount_captured": 8999,
+    "mdr_fee": 179.98,
+    "gst_on_fee": 32.4,
+    "status": "captured",
+    "date": "2026-08-30 12:30:00"
+  },
+  {
+    "pay_id": "pay_e3fa7464",
+    "order_id": "ord_1054",
+    "amount_captured": 499,
+    "mdr_fee": 9.98,
+    "gst_on_fee": 1.8,
+    "status": "captured",
+    "date": "2026-08-30 10:30:00"
+  },
+  {
+    "pay_id": "pay_c3244196",
+    "order_id": "ord_1055",
+    "amount_captured": 1999,
+    "mdr_fee": 39.98,
+    "gst_on_fee": 7.2,
+    "status": "captured",
+    "date": "2026-08-29 20:30:00"
+  },
+  {
+    "pay_id": "pay_295667f5",
+    "order_id": "ord_1056",
+    "amount_captured": 1499,
+    "mdr_fee": 29.98,
+    "gst_on_fee": 5.4,
+    "status": "captured",
+    "date": "2026-08-15 21:00:00"
+  },
+  {
+    "pay_id": "pay_35f79b55",
+    "order_id": "ord_1057",
+    "amount_captured": 999,
+    "mdr_fee": 19.98,
+    "gst_on_fee": 3.6,
+    "status": "captured",
+    "date": "2026-08-16 22:00:00"
+  },
+  {
+    "pay_id": "pay_8639bb3a",
+    "order_id": "ord_1058",
+    "amount_captured": 1299,
+    "mdr_fee": 25.98,
+    "gst_on_fee": 4.68,
+    "status": "captured",
+    "date": "2026-08-17 18:00:00"
+  },
+  {
+    "pay_id": "pay_83cf2c89",
+    "order_id": "ord_1059",
+    "amount_captured": 799,
+    "mdr_fee": 15.98,
+    "gst_on_fee": 2.88,
+    "status": "refunded",
+    "date": "2026-08-18 12:00:00"
+  },
+  {
+    "pay_id": "pay_7c76c9ab",
+    "order_id": "ord_1060",
+    "amount_captured": 2499,
+    "mdr_fee": 49.98,
+    "gst_on_fee": 9.0,
+    "status": "refunded",
+    "date": "2026-08-19 16:00:00"
+  },
+  {
+    "pay_id": "pay_56dea3fd",
+    "order_id": "ord_1061",
+    "amount_captured": 2499,
+    "mdr_fee": 49.98,
+    "gst_on_fee": 9.0,
+    "status": "disputed",
+    "date": "2026-08-20 18:00:00"
+  },
+  {
+    "pay_id": "pay_31be523a",
+    "order_id": "ord_1062",
+    "amount_captured": 499,
+    "mdr_fee": 9.98,
+    "gst_on_fee": 1.8,
+    "status": "disputed",
+    "date": "2026-08-21 21:00:00"
+  },
+  {
+    "pay_id": "pay_b40f7572",
+    "order_id": "ord_1063",
+    "amount_captured": 799,
+    "mdr_fee": 27.97,
+    "gst_on_fee": 5.03,
+    "status": "captured",
+    "date": "2026-08-22 11:00:00"
+  },
+  {
+    "pay_id": "pay_38c0c691",
+    "order_id": "ord_1064",
+    "amount_captured": 799,
+    "mdr_fee": 27.97,
+    "gst_on_fee": 5.03,
+    "status": "captured",
+    "date": "2026-08-23 14:00:00"
+  }
+]

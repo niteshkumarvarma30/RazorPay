@@ -1,0 +1,28 @@
+# Environment and API keys (NEVER commit secrets)
+.env
+*.env
+*.json.secret
+neon-rampart-*.json
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+*.pdf
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

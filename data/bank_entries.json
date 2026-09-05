@@ -1,0 +1,314 @@
+[
+  {
+    "utr": "UTR403832645883",
+    "batch_id": "batch_20260818_1",
+    "amount_credited": 780.14,
+    "date": "2026-08-18 11:00:00"
+  },
+  {
+    "utr": "UTR214832269481",
+    "batch_id": "batch_20260819_2",
+    "amount_credited": 1268.34,
+    "date": "2026-08-19 13:00:00"
+  },
+  {
+    "utr": "UTR566392613993",
+    "batch_id": "batch_20260820_3",
+    "amount_credited": 4881.02,
+    "date": "2026-08-20 12:00:00"
+  },
+  {
+    "utr": "UTR354342113419",
+    "batch_id": "batch_20260821_4",
+    "amount_credited": 487.22,
+    "date": "2026-08-21 12:00:00"
+  },
+  {
+    "utr": "UTR317158893990",
+    "batch_id": "batch_20260822_5",
+    "amount_credited": 8786.62,
+    "date": "2026-08-22 11:00:00"
+  },
+  {
+    "utr": "UTR590573056992",
+    "batch_id": "batch_20260823_6",
+    "amount_credited": 4881.02,
+    "date": "2026-08-23 17:00:00"
+  },
+  {
+    "utr": "UTR988022315787",
+    "batch_id": "batch_20260824_7",
+    "amount_credited": 1463.62,
+    "date": "2026-08-24 11:00:00"
+  },
+  {
+    "utr": "UTR268697172873",
+    "batch_id": "batch_20260825_8",
+    "amount_credited": 2440.02,
+    "date": "2026-08-25 16:00:00"
+  },
+  {
+    "utr": "UTR517010168081",
+    "batch_id": "batch_20260826_9",
+    "amount_credited": 1951.82,
+    "date": "2026-08-26 12:00:00"
+  },
+  {
+    "utr": "UTR390355792387",
+    "batch_id": "batch_20260827_10",
+    "amount_credited": 1951.82,
+    "date": "2026-08-27 16:00:00"
+  },
+  {
+    "utr": "UTR690383734374",
+    "batch_id": "batch_20260828_11",
+    "amount_credited": 487.22,
+    "date": "2026-08-28 22:00:00"
+  },
+  {
+    "utr": "UTR424493543665",
+    "batch_id": "batch_20260829_12",
+    "amount_credited": 2440.02,
+    "date": "2026-08-29 12:00:00"
+  },
+  {
+    "utr": "UTR312933106111",
+    "batch_id": "batch_20260830_13",
+    "amount_credited": 8786.62,
+    "date": "2026-08-30 16:00:00"
+  },
+  {
+    "utr": "UTR351948207513",
+    "batch_id": "batch_20260817_14",
+    "amount_credited": 780.14,
+    "date": "2026-08-17 11:00:00"
+  },
+  {
+    "utr": "UTR357076632102",
+    "batch_id": "batch_20260818_15",
+    "amount_credited": 1463.62,
+    "date": "2026-08-18 12:00:00"
+  },
+  {
+    "utr": "UTR599410093881",
+    "batch_id": "batch_20260819_16",
+    "amount_credited": 780.14,
+    "date": "2026-08-19 17:00:00"
+  },
+  {
+    "utr": "UTR488136971784",
+    "batch_id": "batch_20260820_17",
+    "amount_credited": 1951.82,
+    "date": "2026-08-20 13:00:00"
+  },
+  {
+    "utr": "UTR851347210313",
+    "batch_id": "batch_20260821_18",
+    "amount_credited": 1463.62,
+    "date": "2026-08-21 22:00:00"
+  },
+  {
+    "utr": "UTR287410804707",
+    "batch_id": "batch_20260822_19",
+    "amount_credited": 780.14,
+    "date": "2026-08-22 20:00:00"
+  },
+  {
+    "utr": "UTR518597220210",
+    "batch_id": "batch_20260823_20",
+    "amount_credited": 1268.34,
+    "date": "2026-08-23 13:00:00"
+  },
+  {
+    "utr": "UTR459422681391",
+    "batch_id": "batch_20260824_21",
+    "amount_credited": 4881.02,
+    "date": "2026-08-24 14:00:00"
+  },
+  {
+    "utr": "UTR137889353643",
+    "batch_id": "batch_20260825_22",
+    "amount_credited": 487.22,
+    "date": "2026-08-25 14:00:00"
+  },
+  {
+    "utr": "UTR169869415070",
+    "batch_id": "batch_20260826_23",
+    "amount_credited": 1951.82,
+    "date": "2026-08-26 17:00:00"
+  },
+  {
+    "utr": "UTR333279765207",
+    "batch_id": "batch_20260827_24",
+    "amount_credited": 8786.62,
+    "date": "2026-08-27 22:00:00"
+  },
+  {
+    "utr": "UTR605272201394",
+    "batch_id": "batch_20260828_25",
+    "amount_credited": 3904.62,
+    "date": "2026-08-28 17:00:00"
+  },
+  {
+    "utr": "UTR917103043320",
+    "batch_id": "batch_20260829_26",
+    "amount_credited": 1463.62,
+    "date": "2026-08-29 13:00:00"
+  },
+  {
+    "utr": "UTR743158526982",
+    "batch_id": "batch_20260830_27",
+    "amount_credited": 4881.02,
+    "date": "2026-08-30 15:00:00"
+  },
+  {
+    "utr": "UTR342072931479",
+    "batch_id": "batch_20260817_28",
+    "amount_credited": 8786.62,
+    "date": "2026-08-17 17:00:00"
+  },
+  {
+    "utr": "UTR929319141080",
+    "batch_id": "batch_20260818_29",
+    "amount_credited": 4881.02,
+    "date": "2026-08-18 18:00:00"
+  },
+  {
+    "utr": "UTR274493552068",
+    "batch_id": "batch_20260819_30",
+    "amount_credited": 780.14,
+    "date": "2026-08-19 13:00:00"
+  },
+  {
+    "utr": "UTR521179644432",
+    "batch_id": "batch_20260820_31",
+    "amount_credited": 2440.02,
+    "date": "2026-08-20 20:00:00"
+  },
+  {
+    "utr": "UTR377150435753",
+    "batch_id": "batch_20260821_32",
+    "amount_credited": 8786.62,
+    "date": "2026-08-21 18:00:00"
+  },
+  {
+    "utr": "UTR227649528249",
+    "batch_id": "batch_20260822_33",
+    "amount_credited": 487.22,
+    "date": "2026-08-22 21:00:00"
+  },
+  {
+    "utr": "UTR807675742947",
+    "batch_id": "batch_20260823_34",
+    "amount_credited": 4881.02,
+    "date": "2026-08-23 15:00:00"
+  },
+  {
+    "utr": "UTR273665994394",
+    "batch_id": "batch_20260824_35",
+    "amount_credited": 780.14,
+    "date": "2026-08-24 15:00:00"
+  },
+  {
+    "utr": "UTR894035742189",
+    "batch_id": "batch_20260825_36",
+    "amount_credited": 487.22,
+    "date": "2026-08-25 22:00:00"
+  },
+  {
+    "utr": "UTR429103158382",
+    "batch_id": "batch_20260826_37",
+    "amount_credited": 4881.02,
+    "date": "2026-08-26 13:00:00"
+  },
+  {
+    "utr": "UTR268358041225",
+    "batch_id": "batch_20260827_38",
+    "amount_credited": 4881.02,
+    "date": "2026-08-27 20:00:00"
+  },
+  {
+    "utr": "UTR958793742143",
+    "batch_id": "batch_20260828_39",
+    "amount_credited": 975.42,
+    "date": "2026-08-28 19:00:00"
+  },
+  {
+    "utr": "UTR638263151675",
+    "batch_id": "batch_20260829_40",
+    "amount_credited": 487.22,
+    "date": "2026-08-29 20:00:00"
+  },
+  {
+    "utr": "UTR988335239225",
+    "batch_id": "batch_20260830_41",
+    "amount_credited": 780.14,
+    "date": "2026-08-30 16:00:00"
+  },
+  {
+    "utr": "UTR190532572167",
+    "batch_id": "batch_20260817_42",
+    "amount_credited": 1268.34,
+    "date": "2026-08-17 11:00:00"
+  },
+  {
+    "utr": "UTR937424066816",
+    "batch_id": "batch_20260818_43",
+    "amount_credited": 3904.62,
+    "date": "2026-08-18 12:00:00"
+  },
+  {
+    "utr": "UTR622524651020",
+    "batch_id": "batch_20260819_44",
+    "amount_credited": 975.42,
+    "date": "2026-08-19 13:00:00"
+  },
+  {
+    "utr": "UTR566461768998",
+    "batch_id": "batch_20260820_45",
+    "amount_credited": 975.42,
+    "date": "2026-08-20 15:00:00"
+  },
+  {
+    "utr": "UTR334013073383",
+    "batch_id": "batch_20260817_56",
+    "amount_credited": 714.12,
+    "date": "2026-08-17 21:00:00"
+  },
+  {
+    "utr": "UTR733812803930",
+    "batch_id": "batch_20260818_57",
+    "amount_credited": 475.92,
+    "date": "2026-08-18 22:00:00"
+  },
+  {
+    "utr": "UTR550144771997",
+    "batch_id": "batch_20260819_58",
+    "amount_credited": 618.84,
+    "date": "2026-08-19 18:00:00"
+  },
+  {
+    "utr": "UTR900593162298",
+    "batch_id": "batch_20260824_63",
+    "amount_credited": 766.0,
+    "date": "2026-08-24 11:00:00"
+  },
+  {
+    "utr": "UTR306981303296",
+    "batch_id": "batch_20260825_64",
+    "amount_credited": 766.0,
+    "date": "2026-08-25 14:00:00"
+  },
+  {
+    "utr": "UTR299380463457",
+    "batch_id": "batch_20260828_GRP1",
+    "amount_credited": 8589.38,
+    "date": "2026-08-21 22:00:00"
+  },
+  {
+    "utr": "UTR608002483225",
+    "batch_id": "batch_20260829_GRP2",
+    "amount_credited": 7124.78,
+    "date": "2026-08-24 18:00:00"
+  }
+]
