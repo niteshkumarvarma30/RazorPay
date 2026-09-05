@@ -79,7 +79,7 @@ flowchart TD
     %% Styling Definitions
     classDef source fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#01579b;
     classDef engine fill:#e8f5e9,stroke:#388e3c,stroke-width:2px,color:#1b5e20;
-    classDef graph fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#4a148c;
+    classDef graphLayer fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#4a148c;
     classDef ai fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#e65100;
     classDef ui fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#880e4f;
 
@@ -102,8 +102,8 @@ flowchart TD
 
     %% 3. Knowledge Graph Layer
     subgraph S3["3. NetworkX Financial Evidence DAG (engine/fault_attribution.py)"]
-        G1["Knowledge Graph Construction<br>Nodes: (Invoice, Payment, Settlement, BankUTR)<br>Edges: BILLED_AS, CAPTURED_IN, SETTLED_AS"]:::graph
-        G2["Evidence Extraction & Subgraph Isolation<br>Pinpoints missing links, timing drift & escrow holds"]:::graph
+        G1["Knowledge Graph Construction<br>Nodes: (Invoice, Payment, Settlement, BankUTR)<br>Edges: BILLED_AS, CAPTURED_IN, SETTLED_AS"]:::graphLayer
+        G2["Evidence Extraction & Subgraph Isolation<br>Pinpoints missing links, timing drift & escrow holds"]:::graphLayer
         B1 & B2 & B3 --> G1 --> G2
     end
 
@@ -132,9 +132,6 @@ flowchart TD
         P1 <--> P2 <--> P3
         R2 & M3 --> P1
     end
-
-    %% Flow connections
-    class S1,S2,S3,S4,S5,S6 source;
 ```
 
 ---
